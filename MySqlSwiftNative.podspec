@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
   s.source                = { :git => "https://github.com/kuanhsianghuang/MySqlSwiftNative.git"}
-  s.source_files          = 'Sources/MySQLDrivers/*.{h,m,swift}'
+  s.source_files          = 'Sources/MySQLDriver/*.{h,m,swift}'
 
 end

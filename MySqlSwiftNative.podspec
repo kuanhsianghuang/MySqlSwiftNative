@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author                = { "Marius Corega" => "mcorega@gmail.com" }
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
-  s.source                = { :git => "https://github.com/mcorega/MySqlSwiftNative.git", :tag => "1.4.0" }
+  s.source                = { :git => "https://github.com/mcorega/MySqlSwiftNative.git"}
   s.source_files          = 'Sources/MySqlSwiftNative/*.{h,m,swift}'
 
 end
